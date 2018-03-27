@@ -1,0 +1,9 @@
+[submodule "InciManager_i1a"]
+	path = InciManager_i1a
+	url = https://github.com/Arquisoft/InciManager_i1a
+[submodule "InciDashboard_i1a"]
+	path = InciDashboard_i1a
+	url = https://github.com/Arquisoft/InciDashboard_i1a
+[submodule "Agents_i1a"]
+	path = Agents_i1a
+	url = https://github.com/Arquisoft/Agents_i1a
