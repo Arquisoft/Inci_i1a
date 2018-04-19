@@ -21,7 +21,7 @@ The application is an incidence analysis system composed by 4 submodules:
 The application has been developed using [Spring Boot 1.4.](https://projects.spring.io/spring-boot/)  
 
 ## MongoDB  
-The first two submodules share a common MongoDB database on the cloud storage of the [mLab webpage.](https://mlab.com/)  
+The submodules share a common MongoDB database on the cloud storage of the [mLab webpage.](https://mlab.com/)  
 
 ## Apache Kafka  
 The last two submodules communicate sending the incidents through Apache Kafka. A quick tutorial on how to set the zookeeper and the kafka server needed may be found on the [Apache Kafka webpage](https://kafka.apache.org/quickstart)  
