@@ -14,7 +14,11 @@ The application is an incidence analysis system composed by 4 submodules:
    
 #### - Module 4.- Analysis and dashboard: [InciDashboard](https://github.com/Arquisoft/InciManager_i1a)  
 
-   The incidence dashboard will be used by the incident management staff for visualizing and managing the incidents that appear in the system. This module will receive incidents submitted by module 3 (InciManagement) through Apache Kafka.  
+   The incidence dashboard will be used by the incident management staff for visualizing and managing the incidents that appear in the system. This module will receive incidents submitted by module 3 (InciManagement) through Apache Kafka.
+
+## Graphic representation of the system
+
+![Diagram of Inci_i1a](https://i.imgur.com/BPy28pi.png "Diagram of Inci_i1a")
 
 ## Spring Boot  
 
