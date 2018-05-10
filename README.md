@@ -34,7 +34,7 @@ The last two submodules communicate sending the incidents through Apache Kafka. 
 To ship and distribute the application we use [Docker](https://www.docker.com/what-docker), each module, Kafka and Zookeeper are indepentent Docker containers. To download and install Docker for Windows, you can use the following [link](https://docs.docker.com/toolbox/toolbox_install_windows/).  
 
 ## Gatling  
-Both Agents and InciManager have been put through a battery of load/stress tests, done using the automated testing tool [Gatling](https://gatling.io/download/), more information about Gatling can be found on the [Gatling documentation](https://gatling.io/documentation/) or in the [InciDashboard readme](https://github.com/Arquisoft/InciDashboard_i1a).  
+Agents, InciManager and InciDashboard have been put through a battery of load/stress tests, done using the automated testing tool [Gatling](https://gatling.io/download/), more information about Gatling can be found on the [Gatling documentation](https://gatling.io/documentation/) or in the [InciDashboard readme](https://github.com/Arquisoft/InciDashboard_i1a).  
 
 ## Cucumber
 [Cucumber](https://cucumber.io/) is an open-source tool for executable specifications, it's been used on the InciDashboard to create user tests based on specifications. You can perform the installation following the instructions on the [Cucumber documentation](https://docs.cucumber.io/installation/).  
