@@ -22,7 +22,7 @@ The application is an incidence analysis system composed by 4 submodules:
 
 ## Spring Boot  
 
-The application has been developed using [Spring Boot 1.4.](https://projects.spring.io/spring-boot/)  
+The application has been developed using [Spring Boot 1.5.](https://projects.spring.io/spring-boot/)  
 
 ## MongoDB  
 The submodules share a common MongoDB database on the cloud storage of the [mLab webpage.](https://mlab.com/)  
