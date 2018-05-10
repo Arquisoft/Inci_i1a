@@ -1,4 +1,7 @@
 # Inci_i1a
+Launched Application Links:
+-InciManager:
+-InciDashboard: 
 The application is an incidence analysis system composed by 4 submodules:  
 #### - Module 1.- Information Loader: [Loader](https://github.com/Arquisoft/Loader_i1a)  
    
