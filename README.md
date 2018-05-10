@@ -30,13 +30,22 @@ The submodules share a common MongoDB database on the cloud storage of the [mLab
 ## Apache Kafka  
 The last two submodules communicate sending the incidents through Apache Kafka. A quick tutorial on how to set the zookeeper and the kafka server needed may be found on the [Apache Kafka webpage](https://kafka.apache.org/quickstart)  
 
+## Docker  
+To ship and distribute the application we use [Docker](https://www.docker.com/what-docker), each module, Kafka and Zookeeper are indepentent Docker containers. To download and install Docker for Windows, you can use the following [link](https://docs.docker.com/toolbox/toolbox_install_windows/).  
+
+## Gatling  
+Both Agents and InciManager have been put through a battery of load/stress tests, done using the automated testing tool [Gatling](https://gatling.io/download/), more information about Gatling can be found on the [Gatling documentation](https://gatling.io/documentation/) or in the [InciDashboard readme](https://github.com/Arquisoft/InciDashboard_i1a).  
+
+## Cucumber
+[Cucumber](https://cucumber.io/) is an open-source tool for executable specifications, it's been used on the InciDashboard to create user tests based on specifications. You can perform the installation following the instructions on the [Cucumber documentation](https://docs.cucumber.io/installation/).  
+
 ## Team members:  
 - [Pedro Blanco Suárez (UO251935)](https://github.com/pedrytus)  
-- [Roberto Pérez Sánchez (UO250973)](https://github.com/robertops18)  
-- [Manuel García Fernández (UO250979)](https://github.com/faltosu)  
-- [Jorge González-Nuevo Bueno (UO251166)](https://github.com/jorgegnb)  
 - [David Ferreiro Fernández (UO250757)](https://github.com/rimorD)  
-- [Lucia Méndez López (UO250970)](https://github.com/UO250970)  
-- [Pablo Suárez García (UO250924)](https://github.com/PabloSuaGar)  
-- [Marcial Francisco Parrilla Socas (UO251851)](https://github.com/marcialfps)  
+- [Manuel García Fernández (UO250979)](https://github.com/faltosu)  
 - [Alejandro González Campomanes (UO251427)](https://github.com/alexgonzcampomanes)  
+- [Jorge González-Nuevo Bueno (UO251166)](https://github.com/jorgegnb)
+- [Lucia Méndez López (UO250970)](https://github.com/UO250970)  
+- [Roberto Pérez Sánchez (UO250973)](https://github.com/robertops18)  
+- [Marcial Francisco Parrilla Socas (UO251851)](https://github.com/marcialfps)  
+- [Pablo Suárez García (UO250924)](https://github.com/PabloSuaGar)  
