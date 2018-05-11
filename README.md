@@ -1,9 +1,9 @@
 # Inci_i1a
 
-Launched Application Links:
-   -InciManager: http://cf-azuc-docker-node-0037.az.codefresh.io:33161/
-   -InciDashboard: http://cf-azuc-docker-node-0037.az.codefresh.io:33162/
-The application is an incidence analysis system composed by 4 submodules:  
+Launched Application Links:  
+   -InciManager: http://cf-azuc-docker-node-0037.az.codefresh.io:33161/  
+   -InciDashboard: http://cf-azuc-docker-node-0037.az.codefresh.io:33162/  
+The application is an incidence analysis system composed by 4 submodules:   
 
 #### - Module 1.- Information Loader: [Loader](https://github.com/Arquisoft/Loader_i1a)  
    
